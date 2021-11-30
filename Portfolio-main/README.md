@@ -1,8 +1,8 @@
 # Portfolio
 
-_Live Demo :_ 
+_Live Demo :_ [Click Here](https://priya-kumarigupta-portfolio-6jg6uvhcn-priyakumarigupta.vercel.app)
 
-_A Glimpse of our portfolio_
+_A Glimpse of my portfolio_
 
 ![image](https://github.com/Priya31g/portfolio/blob/main/Portfolio-main/ScreenShot/Capture.PNG?raw=true)
 
