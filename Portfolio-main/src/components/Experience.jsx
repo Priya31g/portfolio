@@ -56,6 +56,8 @@ const Experience = ({darkMode}) => {
                                         <br/>
                                         A Collaborative Project built by a team of four members.
                                         </p>
+                                        <h4>Tech Stack</h4>
+                                        <p> Node js | Express | Express JS | HTML | MongoDB | Mongoose |CSS | JavaScript</p>
                                     </div> 
                                 </div>
                             </div>
@@ -124,6 +126,8 @@ const Experience = ({darkMode}) => {
                                             <Card.Title align="center">Abhius clone</Card.Title>
                                             <Card.Text>
                                                 <p align="center">A web Application where you can book Train tickets, Bus tickets, and Hotels.</p>
+                                                <h4>Tech Stack</h4>
+                                        <p> ReactJS | Express |  HTML | MongoDB | Mongoose |CSS | JavaScript</p>
                                             </Card.Text>
                                         </Card.Body>
                                     </div>

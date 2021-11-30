@@ -25,6 +25,7 @@ const Contact = ({darkMode}) => {
 		setTemplateParams({...templateParams,[e.target.name]: e.target.value})
 	}
 
+
     const onSubmit = async (e) => {
 		e.preventDefault();
             emailjs.send('service_owvaq38','template_jzeroc2', templateParams, 'user_70UnA06dWlDnkdsE7JDdh')
@@ -77,7 +78,7 @@ const Contact = ({darkMode}) => {
                 
                     <a href="https://www.linkedin.com/in/priya-kumari-gupta/">
                 <Button variant={darkMode ? "outline-light" : "outline-dark"} target="_blank" rel="noreferrer noopener" style={{margin:"1% 3%"}} className="skills-btn">
-                    <FontAwesomeIcon className="skill" size='2x' icon={faLinkedin}/>
+                    <FontAwesomeIcon className="skill" size='2x'  icon={faLinkedin}/>
                     </Button>
                     </a>
 
@@ -86,6 +87,8 @@ const Contact = ({darkMode}) => {
                     <FontAwesomeIcon className="skill" size='2x' icon={faTwitter}/>
                     </Button>
                     </a>
+
+                    
                 </Col>
             </Row>
             </Container>
