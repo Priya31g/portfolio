@@ -49,14 +49,15 @@ const Experience = ({darkMode}) => {
                                     </div>
                                     <div className="flip-card-back">
                                         <p>Implemented ExpressJS for rendering Views.Used MongoDB for Backend Storage. Built the entire application using NodeJS,HTML , CSS.
-                                        <br></br>
+                                       
                                         <br/>
                                         Hosted the Machine Learning Model on Heroku and Mia, integrated the hosted model in a Chrome Extension.
-                                        <br></br>
+                                       
                                         <br/>
                                         A Collaborative Project built by a team of four members.
                                         </p>
-                                        <h4>Tech Stack</h4>
+                                        <br/>
+                                        <p>Tech Stack</p>
                                         <p> Node js | Express | Express JS | HTML | MongoDB | Mongoose |CSS | JavaScript</p>
                                     </div> 
                                 </div>
@@ -94,7 +95,9 @@ const Experience = ({darkMode}) => {
                                         <br></br>
                                         <br></br>
                                         Built the web page in just 2 days.
-                                        
+                                        <br/>
+                                        <p>Tech Stack</p>
+                                        <p> Node js | HTML | CSS | JavaScript</p>
                                         </p>
                                     </div> 
                                 </div>
@@ -126,17 +129,18 @@ const Experience = ({darkMode}) => {
                                             <Card.Title align="center">Abhius clone</Card.Title>
                                             <Card.Text>
                                                 <p align="center">A web Application where you can book Train tickets, Bus tickets, and Hotels.</p>
-                                                <h4>Tech Stack</h4>
-                                        <p> ReactJS | Express |  HTML | MongoDB | Mongoose |CSS | JavaScript</p>
+                                               
                                             </Card.Text>
                                         </Card.Body>
                                     </div>
                                     <div className="flip-card-back">
                                         <p>A web Application where you can book Train tickets, Bus tickets, and Hotels
                                         <br></br>It has all the basic sorting, filtering function.
-                                        <br/>
+                                        
                                         <br></br>A user Friendly UI.
-                                        <br/>
+                                         <br/>
+                                                <p>Tech Stack</p>
+                                        <p> ReactJS | Express |  HTML | MongoDB | Mongoose |CSS | JavaScript</p>
                                         <br/>
                                         A Collaborative Project built by a team of four members.
                                         </p>
