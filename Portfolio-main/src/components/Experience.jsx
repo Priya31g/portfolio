@@ -49,15 +49,11 @@ const Experience = ({darkMode}) => {
                                     </div>
                                     <div className="flip-card-back">
                                         <p>Implemented ExpressJS for rendering Views.Used MongoDB for Backend Storage. Built the entire application using NodeJS,HTML , CSS.
-                                       
-                                        <br/>
-                                        Hosted the Machine Learning Model on Heroku and Mia, integrated the hosted model in a Chrome Extension.
-                                       
                                         <br/>
                                         A Collaborative Project built by a team of four members.
                                         </p>
                                         <br/>
-                                        <p>Tech Stack</p>
+                                        <h4>Tech Stack</h4>
                                         <p> Node js | Express | Express JS | HTML | MongoDB | Mongoose |CSS | JavaScript</p>
                                     </div> 
                                 </div>
@@ -96,7 +92,7 @@ const Experience = ({darkMode}) => {
                                         <br></br>
                                         Built the web page in just 2 days.
                                         <br/>
-                                        <p>Tech Stack</p>
+                                        <h4>Tech Stack</h4>
                                         <p> Node js | HTML | CSS | JavaScript</p>
                                         </p>
                                     </div> 
@@ -136,14 +132,13 @@ const Experience = ({darkMode}) => {
                                     <div className="flip-card-back">
                                         <p>A web Application where you can book Train tickets, Bus tickets, and Hotels
                                         <br></br>It has all the basic sorting, filtering function.
-                                        
-                                        <br></br>A user Friendly UI.
-                                         <br/>
-                                                <p>Tech Stack</p>
-                                        <p> ReactJS | Express |  HTML | MongoDB | Mongoose |CSS | JavaScript</p>
                                         <br/>
                                         A Collaborative Project built by a team of four members.
                                         </p>
+                                         <br/>
+                                                <h4>Tech Stack</h4>
+                                        <p> ReactJS | Express |  HTML | MongoDB | Mongoose |CSS | JavaScript</p>
+                                       
                                     </div> 
                                 </div>
                             </div>
