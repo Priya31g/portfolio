@@ -57,7 +57,7 @@ const Contact = ({darkMode}) => {
                 <br></br>
                 <img src={darkMode? contactDark : contactLight} alt="contact" className="contact-img img-fluid"/>
                 </Col>
-                <Col lg={8}>
+                <Col lg={7}  style={{marginLeft:"35%",marginTop:"-15%"}}>
                 <br></br>
                 {/* <Form onSubmit={e => onSubmit(e)}>
                     <Form.Group>

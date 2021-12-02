@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <br></br>
+            
             <hr></hr>
             <p className="footer-text">Improvised By Priya Kumari Gupta<br></br>
             <br></br>
