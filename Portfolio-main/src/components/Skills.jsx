@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/esm/Button';
 import Card from 'react-bootstrap/esm/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3Alt,  faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import express from "../media/express.png"
+
 
 const Skills = ({darkMode}) => {
     const [hover, setHover] = useState();

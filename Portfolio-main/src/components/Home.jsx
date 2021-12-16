@@ -15,7 +15,7 @@ const Home = ({darkMode}) => {
                     <Col lg={12} xs={12} >
                     
                 <h1 className="display-3 hello" align="center">HELLO!<code> I'm Priya</code>
-                <img src={img} style={{height:"40%",width:"20%",borderRadius:"50%"}} alt="image"/></h1>
+                <img src={img} style={{height:"40%",width:"20%",borderRadius:"50%"}} alt="Pic"/></h1>
                 <br></br>
                 <h2 className="lead" align="center">I
                     <span

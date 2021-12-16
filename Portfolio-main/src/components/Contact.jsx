@@ -70,25 +70,25 @@ function Contact({ darkMode }) {
                     Submit
                 </Button>
             </Form> */}
-                        <a href="https://github.com/Priya31g">
+                        <a href="https://github.com/Priya31g" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faGithub} />
                             </Button>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/priya-kumari-gupta/">
+                        <a href="https://www.linkedin.com/in/priya-kumari-gupta/" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faLinkedin} />
                             </Button>
                         </a>
 
-                        <a href="https://twitter.com/Priya31g">
+                        <a href="https://twitter.com/Priya31g" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark"} target="_blank" rel="noreferrer noopener" style={{ margin: "1% 3%" }} className="skills-btn">
                                 <FontAwesomeIcon className="skill" size='2x' icon={faTwitter} />
                             </Button>
                         </a>
 
-                        <a href="mailto:priyakumarigupta790@gmail.com">
+                        <a href="mailto:priyakumarigupta790@gmail.com" >
                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
                                 <p align="center" style={{ fontSize: "23px", marginBottom: "0%" }} className="skill-txt">
                                     M

@@ -1,18 +1,15 @@
 import { useState, React } from 'react'
 import { Zoom, Fade } from 'react-awesome-reveal'
-import dsc from '../media/DSC.png'
-import scr from '../media/SCR.png'
-import gotg from '../media/GOTG.png'
+
 import starwars from "../media/starwars.png"
-import rfp from '../media/RFP.png'
-import ca from '../media/CA.png'
+
 import tcd from '../media/Zoomcar.png'
 import Container from 'react-bootstrap/esm/Container'
 import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import Card from 'react-bootstrap/esm/Card'
-import Modal from 'react-bootstrap/Modal'
+
 import abhi from "../media/abhi.jpg" 
 
 const Experience = ({darkMode}) => {
