@@ -98,7 +98,7 @@ const Experience = ({darkMode}) => {
                         </center>
                         <br></br>
                         <div> 
-                        <a href="https://star-wars-character-details-clone.vercel.app/Index.html" target="_blank" rel="noreferrer noopener">
+                        <a href="https://star-wars-character-details-clone-29j6q55hh-priyakumarigupta.vercel.app" target="_blank" rel="noreferrer noopener">
                                 <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                             </a>  
                         <a href="https://github.com/Priya31g/Star-Wars" target="_blank" rel="noreferrer noopener">
