@@ -36,7 +36,7 @@ const Experience = ({darkMode}) => {
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div className="flip-card-front">
-                                        <Card.Img variant="top" src={tcd}/>
+                                        <Card.Img variant="top"  src={tcd}/>
                                         <Card.Body>
                                             <Card.Title align="center">Zoomcar clone</Card.Title>
                                             <Card.Text>
@@ -59,10 +59,10 @@ const Experience = ({darkMode}) => {
                         <br></br>
                         <div>
                             <a href="https://zoomcarcom.herokuapp.com/home" target="_blank" rel="noreferrer noopener">
-                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
+                            <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark"} className="sbtn" style={{color:"white"}}>View Project</Button>
                             </a>
                             <a href="https://github.com/patelrohan224/Zoomcar_backend" target="_blank" rel="noreferrer noopener">
-                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
+                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" style={{color:"white"}}>View Github Repo</Button>
                             </a>
                         </div>
                         <br></br>
@@ -75,7 +75,7 @@ const Experience = ({darkMode}) => {
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div className="flip-card-front">
-                                        <Card.Img variant="top" src={starwars}/>
+                                        <Card.Img variant="top"  src={starwars}/>
                                         <Card.Body>
                                             <Card.Title align="center">Star Wars Character Details</Card.Title>
                                             <Card.Text>
@@ -99,10 +99,10 @@ const Experience = ({darkMode}) => {
                         <br></br>
                         <div> 
                         <a href="https://star-wars-character-details-clone-29j6q55hh-priyakumarigupta.vercel.app" target="_blank" rel="noreferrer noopener">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
+                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" style={{color:"white"}}>View Project</Button>
                             </a>  
                         <a href="https://github.com/Priya31g/Star-Wars" target="_blank" rel="noreferrer noopener">
-                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
+                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" style={{color:"white"}}>View Github Repo</Button>
                             </a>
                            
                            
@@ -143,10 +143,10 @@ const Experience = ({darkMode}) => {
                         <br></br>
                         <div>
                             <a href="https://abhi-bus-clone.vercel.app/" target="_blank" rel="noreferrer noopener">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
+                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" style={{color:"white"}}>View Project</Button>
                             </a>
                             <a href="https://github.com/Priya31g/abhibus-clone" target="_blank" rel="noreferrer noopener">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
+                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" style={{color:"white"}}>View Github Repo</Button>
                             </a>
                         </div>
                         <br></br>

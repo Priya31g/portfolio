@@ -130,6 +130,11 @@ strong, .with{
     font-size: 30px;
     vertical-align: middle;
 }
+.sbtn2{
+    margin: 1% 2%;
+    margin-top: 20px;
+   
+}
 .skill-nbcard{
     color: #ffffff;
     margin-top: 10px;
@@ -178,9 +183,19 @@ strong, .with{
 }
 
 .sbtn{
+    margin: 0.5% 2%;
     margin-top: 20px;
-}
+    color:antiquewhite;
 
+}
+.mode{
+  
+    color:antiquewhite;
+
+}
+.mode-light-btn{
+    color: #000000;
+}
 .ph{
     background-color: transparent;
     border-width: 1px;

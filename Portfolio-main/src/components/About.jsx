@@ -90,7 +90,7 @@ const About = ({darkMode}) => {
                           Now that you know me a bit, please feel free to drop a text because <strong>Communication is a two-way street.</strong></p>
                         </Card.Text>
                         <a href={resume} target="_blank" rel="noreferrer noopener">
-                        <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
+                        <Button variant={darkMode ? "outline-light " : "outline-dark sbtn"} className='a'>
                           <FontAwesomeIcon className="dark" size="lg" icon={faFile}/>  Resume
                         </Button>
                         </a>
@@ -105,17 +105,19 @@ const About = ({darkMode}) => {
                         <Card.Title><h2 className="lead">Let's Connect!</h2></Card.Title>
                         <br></br>
                         <a href="https://www.linkedin.com/in/priya-kumari-gupta/" target="_blank" rel="noreferrer noopener">
-                          <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
+                          <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"} className='a'>
                             <FontAwesomeIcon className="dark" size="lg" icon={faLinkedin}/> Priya Kumari Gupta
                           </Button>
                         </a>
+                        <br/>
                         <a href="https://github.com/Priya31g" target="_blank" rel="noreferrer noopener">
-                          <Button variant={darkMode ? "outline-light" : "outline-dark"}>
+                          <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"}>
                             <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/>Priya31g
                           </Button>
                         </a>
+                        <br/>
                         <a href="https://twitter.com/Priya31g" target="_blank" rel="noreferrer noopener">
-                          <Button variant={darkMode ? "outline-light" : "outline-dark"}>
+                          <Button variant={darkMode ? "outline-light sbtn2" : "outline-dark sbtn"}>
                             <FontAwesomeIcon className="dark" size="lg" icon={faTwitter}/> @Priya31g
                           </Button>
                         </a>

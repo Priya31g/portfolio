@@ -32,7 +32,7 @@ function App() {
                     <Nav.Link href={resume} target="_blank" rel="noreferrer noopener"
                     className="link">Resume</Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light " : "outline-dark mode"}>
                     {darkMode ? "Dark Mode" : "Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>

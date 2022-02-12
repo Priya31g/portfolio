@@ -33,19 +33,19 @@ const Skills = ({darkMode}) => {
                 <Col lg={2} xs={4}>
                     <br></br>
                     <Card className="nbcard">
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} className="skills-btn">
+                    <Button style={{margin:'2%'}} variant={darkMode ? "outline-light " : "outline-dark "} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} className="skills-btn">
                     <FontAwesomeIcon className="skill" size='2x' icon={faHtml5}/>
                     {hover ? <p style={{fontSize:"10px"}}>HTML5</p> : ""}
                     </Button>
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"}  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} className="skills-btn">
+                    <Button style={{margin:'2%'}} variant={darkMode ? "outline-light " : "outline-dark "}  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} className="skills-btn">
                     <FontAwesomeIcon className="skill" size='2x' icon={faCss3Alt}/>
                     {hover ? <p style={{fontSize:"10px"}}>CSS</p> : ""}
                     </Button>
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"}  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} className="skills-btn">
+                    <Button style={{margin:'2%'}} variant={darkMode ? "outline-light " : "outline-dark "}  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} className="skills-btn">
                     <FontAwesomeIcon className="skill" size='2x' icon={faJs}/>
                     {hover ? <p style={{fontSize:"10px"}}>JS</p> : ""}
                     </Button>
-                    <Button  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
+                    <Button  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} variant={darkMode ? "outline-light " : "outline-dark "} className="skills-btn">
                     <FontAwesomeIcon className="skill" size='2x' icon={faReact}/>
                     {hover ? <p style={{fontSize:"10px"}}>React</p> : ""}
                     </Button>
